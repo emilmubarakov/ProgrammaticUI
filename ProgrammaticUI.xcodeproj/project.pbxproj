@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		165AB92B29D82C5A00DB2861 /* Programmatic UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165AB92B29D82C5A00DB2861 /* ProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165AB92E29D82C5A00DB2861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165AB93029D82C5A00DB2861 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		165AB93729D82C5C00DB2861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		165AB92229D82C5A00DB2861 = {
 			isa = PBXGroup;
 			children = (
-				165AB92D29D82C5A00DB2861 /* Programmatic UI */,
+				165AB92D29D82C5A00DB2861 /* ProgrammaticUI */,
 				165AB92C29D82C5A00DB2861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		165AB92C29D82C5A00DB2861 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				165AB92B29D82C5A00DB2861 /* Programmatic UI.app */,
+				165AB92B29D82C5A00DB2861 /* ProgrammaticUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		165AB92D29D82C5A00DB2861 /* Programmatic UI */ = {
+		165AB92D29D82C5A00DB2861 /* ProgrammaticUI */ = {
 			isa = PBXGroup;
 			children = (
 				165AB92E29D82C5A00DB2861 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				165AB93929D82C5C00DB2861 /* LaunchScreen.storyboard */,
 				165AB93C29D82C5C00DB2861 /* Info.plist */,
 			);
-			path = "Programmatic UI";
+			path = ProgrammaticUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		165AB92A29D82C5A00DB2861 /* Programmatic UI */ = {
+		165AB92A29D82C5A00DB2861 /* ProgrammaticUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 165AB93F29D82C5C00DB2861 /* Build configuration list for PBXNativeTarget "Programmatic UI" */;
+			buildConfigurationList = 165AB93F29D82C5C00DB2861 /* Build configuration list for PBXNativeTarget "ProgrammaticUI" */;
 			buildPhases = (
 				165AB92729D82C5A00DB2861 /* Sources */,
 				165AB92829D82C5A00DB2861 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Programmatic UI";
+			name = ProgrammaticUI;
 			productName = "Programmatic UI";
-			productReference = 165AB92B29D82C5A00DB2861 /* Programmatic UI.app */;
+			productReference = 165AB92B29D82C5A00DB2861 /* ProgrammaticUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 165AB92629D82C5A00DB2861 /* Build configuration list for PBXProject "Programmatic UI" */;
+			buildConfigurationList = 165AB92629D82C5A00DB2861 /* Build configuration list for PBXProject "ProgrammaticUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				165AB92A29D82C5A00DB2861 /* Programmatic UI */,
+				165AB92A29D82C5A00DB2861 /* ProgrammaticUI */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Programmatic UI/Info.plist";
+				INFOPLIST_FILE = ProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -287,7 +287,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "emilmubarakov.Programmatic-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = emilmubarakov.ProgrammaticUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Programmatic UI/Info.plist";
+				INFOPLIST_FILE = ProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "emilmubarakov.Programmatic-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = emilmubarakov.ProgrammaticUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		165AB92629D82C5A00DB2861 /* Build configuration list for PBXProject "Programmatic UI" */ = {
+		165AB92629D82C5A00DB2861 /* Build configuration list for PBXProject "ProgrammaticUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				165AB93D29D82C5C00DB2861 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		165AB93F29D82C5C00DB2861 /* Build configuration list for PBXNativeTarget "Programmatic UI" */ = {
+		165AB93F29D82C5C00DB2861 /* Build configuration list for PBXNativeTarget "ProgrammaticUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				165AB94029D82C5C00DB2861 /* Debug */,
