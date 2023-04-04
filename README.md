@@ -9,10 +9,10 @@ https://user-images.githubusercontent.com/42997578/229869850-68418df7-8f9e-4f84-
 
 
 
-/n
 
 
 
 
-Basic app with Programmatic UI. 
+Basic app with Programmatic UI.
+
 Also at the first commit you can find the basic settings for creating app programmticly
