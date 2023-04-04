@@ -14,6 +14,7 @@
 		165AB94329D82DC600DB2861 /* CardCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165AB94229D82DC600DB2861 /* CardCollectionVC.swift */; };
 		165AB94529D8325B00DB2861 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165AB94429D8325B00DB2861 /* CWButton.swift */; };
 		165AB94729D8469500DB2861 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165AB94629D8469500DB2861 /* RulesVC.swift */; };
+		165AB94929DC6EA300DB2861 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165AB94829DC6EA300DB2861 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		165AB94229D82DC600DB2861 /* CardCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionVC.swift; sourceTree = "<group>"; };
 		165AB94429D8325B00DB2861 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
 		165AB94629D8469500DB2861 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		165AB94829DC6EA300DB2861 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				165AB93029D82C5A00DB2861 /* SceneDelegate.swift */,
 				165AB94229D82DC600DB2861 /* CardCollectionVC.swift */,
 				165AB94629D8469500DB2861 /* RulesVC.swift */,
+				165AB94829DC6EA300DB2861 /* Card.swift */,
 				165AB94429D8325B00DB2861 /* CWButton.swift */,
 				165AB93729D82C5C00DB2861 /* Assets.xcassets */,
 				165AB93929D82C5C00DB2861 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				165AB92F29D82C5A00DB2861 /* AppDelegate.swift in Sources */,
+				165AB94929DC6EA300DB2861 /* Card.swift in Sources */,
 				165AB94729D8469500DB2861 /* RulesVC.swift in Sources */,
 				165AB94329D82DC600DB2861 /* CardCollectionVC.swift in Sources */,
 				165AB93129D82C5A00DB2861 /* SceneDelegate.swift in Sources */,

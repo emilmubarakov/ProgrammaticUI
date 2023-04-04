@@ -14,10 +14,31 @@ class CardCollectionVC: UIViewController {
     let resetButton = CWButton(backgroundColor: .systemGreen, title: "Reset")
     let rulesButton = CWButton(backgroundColor: .systemBlue, title: "Rules")
     
+    var timer: Timer!
+    var cards = Card.allValues
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         configurUI()
+        startTimer()
+    }
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(showRandomImage), userInfo: nil, repeats: true)
+    }
+    
+    @objc func stopButtonTapped() {
+            timer.invalidate()
+    }
+    
+    @objc func showRandomImage() {
+        cardImageView.image = cards.randomElement() ?? UIImage(named: "jocker")
+    }
+    
+    @objc func restartButtonTapped() {
+        timer.invalidate()
+        startTimer()
     }
     
     func configurUI() {
@@ -41,6 +62,7 @@ class CardCollectionVC: UIViewController {
     
     func configureStopButton() {
         view.addSubview(stopButton)
+        stopButton.addTarget(self, action: #selector(stopButtonTapped), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             stopButton.widthAnchor.constraint(equalToConstant: 260),
@@ -51,6 +73,7 @@ class CardCollectionVC: UIViewController {
     
     func configureResetButton() {
         view.addSubview(resetButton)
+        resetButton.addTarget(self, action: #selector(restartButtonTapped), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             resetButton.widthAnchor.constraint(equalToConstant: 115),
@@ -61,7 +84,7 @@ class CardCollectionVC: UIViewController {
     
     func configureRulesButton() {
         view.addSubview(rulesButton)
-//        rulesButton.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
+        rulesButton.addTarget(self, action: #selector(presentRulesVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             rulesButton.widthAnchor.constraint(equalToConstant: 115),
@@ -71,14 +94,7 @@ class CardCollectionVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func presentRulesVC() {
+        present(RulesVC(), animated: true)
     }
-    */
-
 }
